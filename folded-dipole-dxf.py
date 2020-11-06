@@ -21,15 +21,15 @@ if len(sys.argv) < 2:
 
 # args
 freq = 868.0
-if len(sys.argv) > 2:
+if len(sys.argv) > 1:
 	freq = float(sys.argv[1])
 
 offset = 3
-if len(sys.argv) > 3:
+if len(sys.argv) > 2:
 	offset = float(sys.argv[2])
 
 wire = None
-if len(sys.argv) > 4:
+if len(sys.argv) > 3:
 	wire = float(sys.argv[3])
 
 
